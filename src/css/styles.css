@@ -1,0 +1,39 @@
+.entry-container {
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+  color: grey;
+  margin: 10px;
+  min-height: 8vh;
+}
+
+@media (min-width: 350px) {
+  .entry-container {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .entry-container{
+    font-size: 1.1em;
+  }
+}
+
+#header_icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  background: url("../icons/white-github-32.png") no-repeat;
+}
+
+#refresh-button {
+  background: url("../icons/refresh-white.png") no-repeat center;
+}
+
+#header-row {
+  padding: 10px;
+}
+
+main {
+  background-color: #FFF9F1;
+}
