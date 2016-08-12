@@ -40,7 +40,7 @@ async function getStory(storyID){
 }
 
 function updateEntry(entry, story){
-  entry.innerHTML = '<h4>' + story.title + '</h4><a href="story.url">' + story.url + '</a>'
+  entry.innerHTML = '<h4>' + story.title + '</h4><a href="'+story.url+'">' + story.url + '</a>'
 }
 
 function getEntryContainers(){
