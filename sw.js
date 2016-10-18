@@ -210,7 +210,7 @@ self.addEventListener('fetch', function(event) {
       IgnoreUrlParametersMatching);
 
     var cacheName = AbsoluteUrlToCacheName[urlWithoutIgnoredParameters];
-    var directoryIndex = 'index.html';
+    var directoryIndex = 'Progressive-HN-Reader/index.html';
     if (!cacheName && directoryIndex) {
       urlWithoutIgnoredParameters = addDirectoryIndex(urlWithoutIgnoredParameters, directoryIndex);
       cacheName = AbsoluteUrlToCacheName[urlWithoutIgnoredParameters];
@@ -252,7 +252,3 @@ self.addEventListener('fetch', function(event) {
     }
   }
 });
-
-
-
-
