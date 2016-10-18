@@ -3,7 +3,7 @@ import material from './css/material.min.css'
 
 (function() {
   if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('Progressive-HN-Reader/sw.js')
   }
 })()
 
